@@ -5,6 +5,7 @@
 #include <stdexcept>
 
 #include "bitboard.h"
+#include "apiutil.h"
 #include "endgame.h"
 #include "evaluate.h"
 #include "movegen.h"
