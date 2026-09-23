@@ -52,7 +52,6 @@ void Game::initialize_engine() {
     if (initialized)
         return;
 
-    pieceMap.init();
     variants.init();
 
     UCI::init(Options);
