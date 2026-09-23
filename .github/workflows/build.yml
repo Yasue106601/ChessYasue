@@ -35,6 +35,13 @@ jobs:
             "cmake;3.22.1" \
             "ndk;27.2.12479018"
 
+      - name: Download NNUE network
+        run: |
+          curl -L --fail --retry 3 \
+            -o fairy-stockfish/src/nn-3475407dc199.nnue \
+            https://tests.stockfishchess.org/api/nn/nn-3475407dc199.nnue
+          ls -lh fairy-stockfish/src/nn-3475407dc199.nnue
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
