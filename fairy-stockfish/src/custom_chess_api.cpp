@@ -8,7 +8,6 @@
 #include "endgame.h"
 #include "evaluate.h"
 #include "movegen.h"
-#include "nnue/network.h"
 #include "psqt.h"
 #include "search.h"
 #include "tt.h"
