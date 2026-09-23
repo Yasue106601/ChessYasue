@@ -40,6 +40,8 @@ add_library(
     ${FAIRY_SRC}/movegen.cpp
     ${FAIRY_SRC}/movepick.cpp
     ${FAIRY_SRC}/nnue/evaluate_nnue.cpp
+    ${FAIRY_SRC}/nnue/features/half_ka_v2.cpp
+    ${FAIRY_SRC}/nnue/features/half_ka_v2_variants.cpp
     ${FAIRY_SRC}/parser.cpp
     ${FAIRY_SRC}/partner.cpp
     ${FAIRY_SRC}/pawns.cpp
